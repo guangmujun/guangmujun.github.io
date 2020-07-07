@@ -1,0 +1,33 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuhang.W on Yuhang.W</title>
+    <link>https://guangmujun.github.io/</link>
+    <description>Recent content in Yuhang.W on Yuhang.W</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jul 2020 22:42:23 +0800</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Posts</title>
+      <link>https://guangmujun.github.io/posts/</link>
+      <pubDate>Tue, 07 Jul 2020 22:42:23 +0800</pubDate>
+      
+      <guid>https://guangmujun.github.io/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://guangmujun.github.io/about/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://guangmujun.github.io/about/</guid>
+      <description>&lt;p&gt;在校大学生&lt;/p&gt;
+&lt;p&gt;热爱&lt;strong&gt;生活&lt;/strong&gt;、热爱&lt;strong&gt;篮球&lt;/strong&gt;、热爱&lt;strong&gt;编程&lt;/strong&gt;、热爱&lt;strong&gt;记录&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;继WordPress后，重新使用Hugo搭建个人的小而美的博客，专注记录，不断完善ing~&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

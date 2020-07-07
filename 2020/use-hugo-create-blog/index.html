@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Yuhang.W">
+  
+  
+  
+  
+  
+  <link rel="canonical" href="https://guangmujun.github.io/2020/use-hugo-create-blog/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           基于Hugo和Github搭建个人博客 | Yuhang.W
+       
+  </title>
+  <meta name="title" content="基于Hugo和Github搭建个人博客 | Yuhang.W">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/guangmujun.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "基于Hugo和Github搭建个人博客",
+    "headline" : "基于Hugo和Github搭建个人博客",
+    "description" : "步骤   下载hugo，添加到环境变量\n  测试hugo是否安装成功hugo version\n  下载hugo主题，修改主题中的配置文件config.toml\n  本地启动hugo，查看效果hugo server\n  新建一篇博文hugo new posts\/blog.md，头部的draft参数设置成False\n  写作，本地启动查看博文效果\n  生成网页，hugo，生成public目录\n  Github新建仓库，仓库名为username.github.io\n  将public目录下所有文件上传到仓库中\ngit init git add . git commit -m \u0026#34;first commit\u0026#34; git remote add origin https:\/\/github.com\/username\/username.github.io # 使用自己的用户名 git push -u origin master # 然后输入自己的用户名和密码 git push   访问https:\/\/username.github.io，搭建成功\n  常见问题 Q1：博文不显示？\nA1：文档头部的draft参数设置为False即可。",
+    "inLanguage" : "en-us",
+    "author" : "Yuhang.W",
+    "creator" : "Yuhang.W",
+    "publisher": "Yuhang.W",
+    "accountablePerson" : "Yuhang.W",
+    "copyrightHolder" : "Yuhang.W",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-07-07 22:42:23 \u002b0800 CST",
+    "dateModified" : "2020-07-07 22:42:23 \u002b0800 CST",
+    "url" : "https:\/\/guangmujun.github.io\/2020\/use-hugo-create-blog\/",
+    "wordCount" : "44",
+    "keywords" : [ "Hugo","GitHub", "Yuhang.W"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://guangmujun.github.io">Yuhang.W</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://guangmujun.github.io">Yuhang.W</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">基于Hugo和Github搭建个人博客</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://guangmujun.github.io" rel="author">Yuhang.W</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-07-07 itemprop="datePublished">July 7, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://guangmujun.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"> 博客搭建 </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h1 id="步骤">步骤</h1>
+<ol>
+<li>
+<p>下载hugo，添加到环境变量</p>
+</li>
+<li>
+<p>测试hugo是否安装成功<code>hugo version</code></p>
+</li>
+<li>
+<p>下载hugo主题，修改主题中的配置文件<strong>config.toml</strong></p>
+</li>
+<li>
+<p>本地启动hugo，查看效果<code>hugo server</code></p>
+</li>
+<li>
+<p>新建一篇博文<code>hugo new posts/blog.md</code>，头部的<strong>draft</strong>参数设置成<strong>False</strong></p>
+</li>
+<li>
+<p>写作，本地启动查看博文效果</p>
+</li>
+<li>
+<p>生成网页，<code>hugo</code>，生成<strong>public</strong>目录</p>
+</li>
+<li>
+<p>Github新建仓库，仓库名为<strong>username.github.io</strong></p>
+</li>
+<li>
+<p>将<strong>public</strong>目录下所有文件上传到仓库中</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">git init
+git add <span style="color:#f92672">.</span>
+git commit <span style="color:#f92672">-</span>m <span style="color:#e6db74">&#34;first commit&#34;</span>
+git remote add origin https:<span style="color:#f92672">//</span>github<span style="color:#f92672">.</span>com<span style="color:#f92672">/</span>username<span style="color:#f92672">/</span>username<span style="color:#f92672">.</span>github<span style="color:#f92672">.</span>io  <span style="color:#75715e"># 使用自己的用户名</span>
+git push <span style="color:#f92672">-</span>u origin master  <span style="color:#75715e"># 然后输入自己的用户名和密码</span>
+git push
+</code></pre></div></li>
+<li>
+<p>访问https://username.github.io，搭建成功</p>
+</li>
+</ol>
+<h1 id="常见问题">常见问题</h1>
+<p>Q1：博文不显示？</p>
+<p>A1：文档头部的<code>draft</code>参数设置为<code>False</code>即可。</p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Yuhang.W </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://guangmujun.github.io/2020/use-hugo-create-blog/>https://guangmujun.github.io/2020/use-hugo-create-blog/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://guangmujun.github.io/tags/hugo/">
+                    #Hugo</a></span>
+            
+            <span class="tag"><a href="https://guangmujun.github.io/tags/github/">
+                    #GitHub</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://guangmujun.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://guangmujun.github.io">Yuhang.W</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

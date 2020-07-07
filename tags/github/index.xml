@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub on Yuhang.W</title>
+    <link>https://guangmujun.github.io/tags/github/</link>
+    <description>Recent content in GitHub on Yuhang.W</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jul 2020 22:42:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://guangmujun.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>基于Hugo和Github搭建个人博客</title>
+      <link>https://guangmujun.github.io/2020/use-hugo-create-blog/</link>
+      <pubDate>Tue, 07 Jul 2020 22:42:23 +0800</pubDate>
+      
+      <guid>https://guangmujun.github.io/2020/use-hugo-create-blog/</guid>
+      <description>步骤   下载hugo，添加到环境变量
+  测试hugo是否安装成功hugo version
+  下载hugo主题，修改主题中的配置文件config.toml
+  本地启动hugo，查看效果hugo server
+  新建一篇博文hugo new posts/blog.md，头部的draft参数设置成False
+  写作，本地启动查看博文效果
+  生成网页，hugo，生成public目录
+  Github新建仓库，仓库名为username.github.io
+  将public目录下所有文件上传到仓库中
+git init git add . git commit -m &amp;#34;first commit&amp;#34; git remote add origin https://github.com/username/username.github.io # 使用自己的用户名 git push -u origin master # 然后输入自己的用户名和密码 git push   访问https://username.github.io，搭建成功
+  常见问题 Q1：博文不显示？
+A1：文档头部的draft参数设置为False即可。</description>
+    </item>
+    
+  </channel>
+</rss>
