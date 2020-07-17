@@ -10,7 +10,7 @@
   
   
   
-  
+  <link rel="next" href="https://guangmujun.github.io/2020/future-life/" />
   <link rel="canonical" href="https://guangmujun.github.io/2020/use-hugo-create-blog/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -46,7 +46,7 @@
     "articleSection" : "posts",
     "name" : "基于Hugo和Github搭建个人博客",
     "headline" : "基于Hugo和Github搭建个人博客",
-    "description" : "步骤   下载hugo，添加到环境变量\n  测试hugo是否安装成功hugo version\n  下载hugo主题，修改主题中的配置文件config.toml\n  本地启动hugo，查看效果hugo server\n  新建一篇博文hugo new posts\/blog.md，头部的draft参数设置成False\n  写作，本地启动查看博文效果\n  生成网页，hugo，生成public目录\n  Github新建仓库，仓库名为username.github.io\n  将public目录下所有文件上传到仓库中\ngit init git add . git commit -m \u0026#34;first commit\u0026#34; git remote add origin https:\/\/github.com\/username\/username.github.io # 使用自己的用户名 git push -u origin master # 然后输入自己的用户名和密码 git push   访问https:\/\/username.github.io，搭建成功\n  常见问题 Q1：博文不显示？\nA1：文档头部的draft参数设置为False即可。",
+    "description" : "1 下载和安装hugo 环境 windows 64位\n下载地址 hugo官网：https:\/\/gohugo.io\/\nhugo（win x64）百度云：\nhttps:\/\/pan.baidu.com\/s\/1WUdTeGw_3M9MK90MA4nkJg\n提取码：567t\n安装过程  将压缩包中的exe文件解压出来 将exe文件所在目录添加到环境变量 终端中输入：hugo version，测试hugo是否安装成功  2 新建一个网站 新建一个项目文件夹，在命令终端中输入如下命令，运行完成后，便会在目录下出现许多文件夹\nhugo new site your-wbesite-name 3 下载和配置hugo主题 主题下载 将主题下载到themes文件夹下\n官网：https:\/\/themes.gohugo.io\/\n我自己使用的主题：https:\/\/github.com\/liuzc\/LeaveIt\n主题配置  参考主题中的theme.toml配置文件，对主目录下的config.toml进行配置 使用主题中的archetypes文件夹下的default.md，替换主目录下相同文件夹下的同名文件 打开替换后的default.md文件，删除draft参数所在行，不然文章内容无法显示出来  4 本地使用hugo 启动hugo 终端中输入hugo server，点击终端显示出的http:\/\/localhost:1313\/ ，访问网站，便能看到主题对应的效果\n新建博文 终端中输入hugo new posts\/blog.md，便会在主目录下的content\/posts文件夹生成Markdown文件，打开撰写博文内容，完成后保存即可\n生成静态网页 进入主目录下的public文件夹，此处打开终端，输入命令hugo，即可在此目录下生成相关文件\n5 部署到Github   Github新建仓库，仓库名为username.github.io，注意名称一定写正确，用户名全用小写字母\n  将public目录下所有文件上传到仓库中\n初次上传到仓库用到的命令：\ngit init git add . git commit -m \u0026#34;first commit\u0026#34; git remote add origin https:\/\/github.",
     "inLanguage" : "en-us",
     "author" : "Yuhang.W",
     "creator" : "Yuhang.W",
@@ -57,7 +57,7 @@
     "datePublished": "2020-07-07 22:42:23 \u002b0800 CST",
     "dateModified" : "2020-07-07 22:42:23 \u002b0800 CST",
     "url" : "https:\/\/guangmujun.github.io\/2020\/use-hugo-create-blog\/",
-    "wordCount" : "44",
+    "wordCount" : "88",
     "keywords" : [ "Hugo","GitHub", "Yuhang.W"]
 }
 </script>
@@ -134,6 +134,8 @@
         
 
         
+            
+        
 
         
         
@@ -146,48 +148,65 @@
           
           
 
-          <h1 id="步骤">步骤</h1>
+          <h2 id="1-下载和安装hugo">1 下载和安装hugo</h2>
+<h3 id="环境">环境</h3>
+<p>windows 64位</p>
+<h3 id="下载地址">下载地址</h3>
+<p>hugo官网：<a href="https://gohugo.io/">https://gohugo.io/</a></p>
+<p>hugo（win x64）百度云：</p>
+<p><a href="https://pan.baidu.com/s/1WUdTeGw_3M9MK90MA4nkJg">https://pan.baidu.com/s/1WUdTeGw_3M9MK90MA4nkJg</a></p>
+<p>提取码：567t</p>
+<h3 id="安装过程">安装过程</h3>
+<ol>
+<li>将压缩包中的exe文件解压出来</li>
+<li>将exe文件所在目录添加到环境变量</li>
+<li>终端中输入：<code>hugo version</code>，测试hugo是否安装成功</li>
+</ol>
+<h2 id="2-新建一个网站">2 新建一个网站</h2>
+<p>新建一个项目文件夹，在命令终端中输入如下命令，运行完成后，便会在目录下出现许多文件夹</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">hugo new site your<span style="color:#f92672">-</span>wbesite<span style="color:#f92672">-</span>name
+</code></pre></div><h2 id="3-下载和配置hugo主题">3 下载和配置hugo主题</h2>
+<h3 id="主题下载">主题下载</h3>
+<p>将主题下载到<code>themes</code>文件夹下</p>
+<p>官网：<a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+<p>我自己使用的主题：<a href="https://github.com/liuzc/LeaveIt">https://github.com/liuzc/LeaveIt</a></p>
+<h3 id="主题配置">主题配置</h3>
+<ol>
+<li>参考主题中的<code>theme.toml</code>配置文件，对主目录下的<code>config.toml</code>进行配置</li>
+<li>使用主题中的<code>archetypes</code>文件夹下的<code>default.md</code>，替换主目录下相同文件夹下的同名文件</li>
+<li>打开替换后的<code>default.md</code>文件，删除<code>draft</code>参数所在行，不然文章内容无法显示出来</li>
+</ol>
+<h2 id="4-本地使用hugo">4 本地使用hugo</h2>
+<h3 id="启动hugo">启动hugo</h3>
+<p>终端中输入<code>hugo server</code>，点击终端显示出的<a href="http://localhost:1313/">http://localhost:1313/</a> ，访问网站，便能看到主题对应的效果</p>
+<h3 id="新建博文">新建博文</h3>
+<p>终端中输入<code>hugo new posts/blog.md</code>，便会在主目录下的<code>content/posts</code>文件夹生成Markdown文件，打开撰写博文内容，完成后保存即可</p>
+<h3 id="生成静态网页">生成静态网页</h3>
+<p>进入主目录下的<code>public</code>文件夹，此处打开终端，输入命令<code>hugo</code>，即可在此目录下生成相关文件</p>
+<h2 id="5-部署到github">5 部署到Github</h2>
 <ol>
 <li>
-<p>下载hugo，添加到环境变量</p>
+<p>Github新建仓库，仓库名为<strong>username.github.io</strong>，注意名称一定写正确，用户名全用小写字母</p>
 </li>
 <li>
-<p>测试hugo是否安装成功<code>hugo version</code></p>
-</li>
-<li>
-<p>下载hugo主题，修改主题中的配置文件<strong>config.toml</strong></p>
-</li>
-<li>
-<p>本地启动hugo，查看效果<code>hugo server</code></p>
-</li>
-<li>
-<p>新建一篇博文<code>hugo new posts/blog.md</code>，头部的<strong>draft</strong>参数设置成<strong>False</strong></p>
-</li>
-<li>
-<p>写作，本地启动查看博文效果</p>
-</li>
-<li>
-<p>生成网页，<code>hugo</code>，生成<strong>public</strong>目录</p>
-</li>
-<li>
-<p>Github新建仓库，仓库名为<strong>username.github.io</strong></p>
-</li>
-<li>
-<p>将<strong>public</strong>目录下所有文件上传到仓库中</p>
+<p>将<code>public</code>目录下所有文件上传到仓库中</p>
+<p>初次上传到仓库用到的命令：</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">git init
 git add <span style="color:#f92672">.</span>
 git commit <span style="color:#f92672">-</span>m <span style="color:#e6db74">&#34;first commit&#34;</span>
 git remote add origin https:<span style="color:#f92672">//</span>github<span style="color:#f92672">.</span>com<span style="color:#f92672">/</span>username<span style="color:#f92672">/</span>username<span style="color:#f92672">.</span>github<span style="color:#f92672">.</span>io  <span style="color:#75715e"># 使用自己的用户名</span>
 git push <span style="color:#f92672">-</span>u origin master  <span style="color:#75715e"># 然后输入自己的用户名和密码</span>
 git push
+</code></pre></div><p>以后上传使用的命令：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">git add <span style="color:#f92672">.</span>
+git commit <span style="color:#f92672">-</span>m <span style="color:#e6db74">&#34;commit info&#34;</span>
+git push
 </code></pre></div></li>
 <li>
-<p>访问https://username.github.io，搭建成功</p>
+<p>访问https://username.github.io，博文可正常打开，搭建成功，效果图</p>
 </li>
 </ol>
-<h1 id="常见问题">常见问题</h1>
-<p>Q1：博文不显示？</p>
-<p>A1：文档头部的<code>draft</code>参数设置为<code>False</code>即可。</p>
+<p><img src="https://my-imags.oss-cn-shanghai.aliyuncs.com/pic/20200717115453.png" alt=""></p>
 
     </div>
 
@@ -235,6 +254,8 @@ git push
     <div class="post-nav">
          
         
+        <a href="https://guangmujun.github.io/2020/future-life/" class="next" rel="next" title="你想要怎样的未来的生活？">你想要怎样的未来的生活？&nbsp;<i class="iconfont icon-right"></i></a>
+        
     </div>
 
     <div class="post-comment">
@@ -275,8 +296,9 @@ git push
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 

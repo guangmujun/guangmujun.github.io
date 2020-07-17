@@ -6,10 +6,68 @@
     <description>Recent content in Posts on Yuhang.W</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jul 2020 22:42:23 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 09:12:52 +0800</lastBuildDate>
     
 	<atom:link href="https://guangmujun.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>基于阿里云OSS和PicGo搭建个人图床</title>
+      <link>https://guangmujun.github.io/2020/picture-bed/</link>
+      <pubDate>Fri, 17 Jul 2020 09:12:52 +0800</pubDate>
+      
+      <guid>https://guangmujun.github.io/2020/picture-bed/</guid>
+      <description>1 前言 意义  有需求，写博客时，需要经常放入图片 私人的图床更加稳定和安全，加载图片快 避免博客中经常出现的“图片无法显示”问题  成本  阿里云OSS的40G存储空间，9元/年 整个过程大概花费约10分钟  效果 流程： 选定截图区域 -&amp;gt; 复制 -&amp;gt; 上传到图床 -&amp;gt; 粘贴链接 -&amp;gt; 图片显示
+整个过程只需要几秒钟，十分方便。
+网址 阿里云OSS：https://www.aliyun.com/product/oss/
+PicGo下载：https://github.com/Molunerfinn/PicGo （官网下载速度较慢）
+PicGo（windows版本）百度云下载：
+链接: https://pan.baidu.com/s/1zWHHqLZQM3TcgVCINlMJCQ 提取码: nqsb
+2 步骤 2.1 购买和配置阿里云OSS  注册阿里云账号，选择一年的套餐，点击购买  创建Bucket，填写名称，选择区域，存储类型选“标准存储”，读写权限选择“公共读”，然后点击确定  2.2 安装和配置PicGO  下载安装PicGo,windows下直接下载exe安装很方便 打开阿里云的网站，鼠标放到自己的头像上，在出现的菜单中选择“AsscessKey管理”  记录下面第一张图片中的ID和Secret，再点击到Bucket列表，下面第二张图箭头所指的域名为your-name.oss-cn-shanghai.ailiyuns.com，记住这个域名   打开PicGo软件，在“图床设置”中选择“阿里云OSS”，如下设置参数
+  前两栏中分别填入上述的ID和Secret，
+  将your-name即你的BucKet名称填入PicGo软件的“设定存储空间名”
+  将oss-cn-shanghai（我选的是上海）填入软件的“确认存储区域”
+  指定存储路径可以自定义
+  将箭头所指域名前加上https://后，填入软件的“设定自定义域名”（！一定要加https://）
+    2.</description>
+    </item>
+    
+    <item>
+      <title>篮球反思之中位接球处理</title>
+      <link>https://guangmujun.github.io/2020/basketball-thinking-1/</link>
+      <pubDate>Fri, 17 Jul 2020 08:31:05 +0800</pubDate>
+      
+      <guid>https://guangmujun.github.io/2020/basketball-thinking-1/</guid>
+      <description>情景：
+​	半场4V4，身高有明显优势，然而正常下来就没有打出优势。对位的是一个灵活的小个子，突破速度较快，容易失掉半个身位，另外防守积极性较高。
+问题：
+​	中位接球后运球被打，两个防守人，篮下还有人，单纯背打往里面压，简单晃动，球被断，或只能传球，无法自己出手。
+解决：
+ 中位接球遇到两个防守人时，试探步晃动，假装往里虚晃，脚步拉回到外边，机会好就直接投，机会不好再尝试拉回到里面，还不行，传球，这样的打法即使没进，也是一个好球。 持球后先不放球，右左右晃动，有机会的话，运球跳投，没有机会的话，运球出来，示意中位队友拉开，运球晃动单打，看准机会，突篮下， 还是急停跳投。  反思：
+ 自己打球的确有问题，但不是球技问题，而是打球心态（球商）的问题； 球场是一个愉悦身心的地方，不是让自己迷失的地方；球场是一个体育竞技的地方，不是一个无脑冲撞的地方；球场是一个展现自我的地方，不是一个让你对成败忧心忡忡的地方； 大胆展现自我，把注意力放在投进每一球上，而不是担心这球进或不进，没有人能做到100%命中率全场0失误。失败了还有下一球还有下一场，打出自我，不断总结进步。  </description>
+    </item>
+    
+    <item>
+      <title>QGIS3中文教程1</title>
+      <link>https://guangmujun.github.io/2020/qgis-tutorial/</link>
+      <pubDate>Thu, 16 Jul 2020 08:51:48 +0800</pubDate>
+      
+      <guid>https://guangmujun.github.io/2020/qgis-tutorial/</guid>
+      <description>1 加载OpenStreetMap底图 双击如图所示的按钮即可
+2 裁剪指定区域数据 如：从江苏路网数据中裁剪出扬州市的路网数据
+ 点击“相交”操作  输出层：江苏路网数据；相交层：扬州市的features；注意这里是将整个江苏的行政区划中选择了扬州市的部分，故需要在“selected features only”前打勾；最后选择输出的位置和文件格式以及文件名；最后点击“run”。  运行一会后，裁剪成功。  3 BD019、GCJ02、WGS相互转换  点击“Plugins”菜单栏中第一项，在弹出的窗口中搜索“GeoHey”插件，并安装  安装完成后，点击“Toolbox”，可以看到GeoHey已经可用  双击“GCJ02 to WGS”，在弹出的窗口中选择好输入图层，以及确定好保存的位置和格式等  点击“run”，运行完成后，将生成的4个文件全部拖入到QGIS中，效果如下，路网与底图匹配。  4 按条件筛选多个特征  点击漏斗按钮，输入查询属性对应的条件，选择查询方式，然后点击选择特征  再次点击漏斗按钮，输入第二个查询条件，此时选择“add to current selection”，这样的话最后选中的就是这两次查询结果的所有特征  </description>
+    </item>
+    
+    <item>
+      <title>你想要怎样的未来的生活？</title>
+      <link>https://guangmujun.github.io/2020/future-life/</link>
+      <pubDate>Thu, 09 Jul 2020 19:14:17 +0800</pubDate>
+      
+      <guid>https://guangmujun.github.io/2020/future-life/</guid>
+      <description>今日看了篇题为“男朋友没钱、没车、没房，怎么办？”的推文，里面提到“很多人并没有一个具体的愿景，大多数人都是随波逐流跟着感觉走，过一天算一天，过一年算一年”，的确是这样，或许有个愿景吧，但也不见得有多具体。
+灵魂一问：你想要怎样的未来的生活？
+ 你的工作是怎样的？  我暂时还没工作，准备工作的方向也没有很明确，还需要更多的去了解 【更多去了解】   你业余时间大致在做什么？  对“业余时间”这个概念已经有些模糊，如果说是除了课题组任务和课程学习会，大多数情况还是会去学习吧，学习编程相关，参加比赛，打打篮球，打游戏和刷手机花的时间也不少，读书也是自己逼着自己的 【需要更加明确】   你想在哪个城市生活？  毕业时的话，就已经在南京七年了，毕竟熟悉，所以还是想在南京生活 【了解其他城市】   你的家庭是怎样的？  普通人的家庭，很和睦   你要小孩吗？  毕业后，工作稳定后才可能会要吧，要的话也不会超过一个   你的收入水平大概是怎样的？  目前还在上学，每月的收入能够自给自足，主要来源于政府补贴和课题组工作酬金   你拥有哪些东西？  这个问题范围好广，有善良的品性、良好的心态、不错的学习能力、知识和技能、爱我的人（要上天了hahahaha~） 【认识自己、认可自己】   你住在怎样的房子里？  我住在四牌楼的文昌宿舍，六人间，上下铺，哭了。 想要出去租房子住，简单看了下租房相关，结合实际情况，理想情况是整租，但有点小贵，两三人合租一套那种吧，单个房间15-20平方米，有个阳台，安静，透光   你有时间自己做饭吗？  出去租房子的话，周六周末应该有时间   你能够付出什么？绝对不会付出什么？  付出我的业余时间，不会付出我的身体健康，所以不确定自己时候真的能干的了996 【更多的思考】   你为社会创造了什么？  学以致用，用自己学到的知识真正的做了一些实践应用 【核心价值观】   你周围的人是怎样的？  单纯善良，循序渐进 【更多的去交流和了解】    </description>
+    </item>
     
     <item>
       <title>基于Hugo和Github搭建个人博客</title>
@@ -17,18 +75,22 @@
       <pubDate>Tue, 07 Jul 2020 22:42:23 +0800</pubDate>
       
       <guid>https://guangmujun.github.io/2020/use-hugo-create-blog/</guid>
-      <description>步骤   下载hugo，添加到环境变量
-  测试hugo是否安装成功hugo version
-  下载hugo主题，修改主题中的配置文件config.toml
-  本地启动hugo，查看效果hugo server
-  新建一篇博文hugo new posts/blog.md，头部的draft参数设置成False
-  写作，本地启动查看博文效果
-  生成网页，hugo，生成public目录
-  Github新建仓库，仓库名为username.github.io
+      <description>1 下载和安装hugo 环境 windows 64位
+下载地址 hugo官网：https://gohugo.io/
+hugo（win x64）百度云：
+https://pan.baidu.com/s/1WUdTeGw_3M9MK90MA4nkJg
+提取码：567t
+安装过程  将压缩包中的exe文件解压出来 将exe文件所在目录添加到环境变量 终端中输入：hugo version，测试hugo是否安装成功  2 新建一个网站 新建一个项目文件夹，在命令终端中输入如下命令，运行完成后，便会在目录下出现许多文件夹
+hugo new site your-wbesite-name 3 下载和配置hugo主题 主题下载 将主题下载到themes文件夹下
+官网：https://themes.gohugo.io/
+我自己使用的主题：https://github.com/liuzc/LeaveIt
+主题配置  参考主题中的theme.toml配置文件，对主目录下的config.toml进行配置 使用主题中的archetypes文件夹下的default.md，替换主目录下相同文件夹下的同名文件 打开替换后的default.md文件，删除draft参数所在行，不然文章内容无法显示出来  4 本地使用hugo 启动hugo 终端中输入hugo server，点击终端显示出的http://localhost:1313/ ，访问网站，便能看到主题对应的效果
+新建博文 终端中输入hugo new posts/blog.md，便会在主目录下的content/posts文件夹生成Markdown文件，打开撰写博文内容，完成后保存即可
+生成静态网页 进入主目录下的public文件夹，此处打开终端，输入命令hugo，即可在此目录下生成相关文件
+5 部署到Github   Github新建仓库，仓库名为username.github.io，注意名称一定写正确，用户名全用小写字母
   将public目录下所有文件上传到仓库中
-git init git add . git commit -m &amp;#34;first commit&amp;#34; git remote add origin https://github.com/username/username.github.io # 使用自己的用户名 git push -u origin master # 然后输入自己的用户名和密码 git push   访问https://username.github.io，搭建成功
-  常见问题 Q1：博文不显示？
-A1：文档头部的draft参数设置为False即可。</description>
+初次上传到仓库用到的命令：
+git init git add . git commit -m &amp;#34;first commit&amp;#34; git remote add origin https://github.</description>
     </item>
     
   </channel>

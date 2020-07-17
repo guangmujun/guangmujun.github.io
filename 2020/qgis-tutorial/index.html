@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Yuhang.W">
+  
+  
+  
+  <link rel="prev" href="https://guangmujun.github.io/2020/future-life/" />
+  <link rel="next" href="https://guangmujun.github.io/2020/basketball-thinking-1/" />
+  <link rel="canonical" href="https://guangmujun.github.io/2020/qgis-tutorial/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           QGIS3中文教程1 | Yuhang.W
+       
+  </title>
+  <meta name="title" content="QGIS3中文教程1 | Yuhang.W">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/guangmujun.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "QGIS3中文教程1",
+    "headline" : "QGIS3中文教程1",
+    "description" : "1 加载OpenStreetMap底图 双击如图所示的按钮即可\n2 裁剪指定区域数据 如：从江苏路网数据中裁剪出扬州市的路网数据\n 点击“相交”操作  输出层：江苏路网数据；相交层：扬州市的features；注意这里是将整个江苏的行政区划中选择了扬州市的部分，故需要在“selected features only”前打勾；最后选择输出的位置和文件格式以及文件名；最后点击“run”。  运行一会后，裁剪成功。  3 BD019、GCJ02、WGS相互转换  点击“Plugins”菜单栏中第一项，在弹出的窗口中搜索“GeoHey”插件，并安装  安装完成后，点击“Toolbox”，可以看到GeoHey已经可用  双击“GCJ02 to WGS”，在弹出的窗口中选择好输入图层，以及确定好保存的位置和格式等  点击“run”，运行完成后，将生成的4个文件全部拖入到QGIS中，效果如下，路网与底图匹配。  4 按条件筛选多个特征  点击漏斗按钮，输入查询属性对应的条件，选择查询方式，然后点击选择特征  再次点击漏斗按钮，输入第二个查询条件，此时选择“add to current selection”，这样的话最后选中的就是这两次查询结果的所有特征  ",
+    "inLanguage" : "en-us",
+    "author" : "Yuhang.W",
+    "creator" : "Yuhang.W",
+    "publisher": "Yuhang.W",
+    "accountablePerson" : "Yuhang.W",
+    "copyrightHolder" : "Yuhang.W",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-07-16 08:51:48 \u002b0800 CST",
+    "dateModified" : "2020-07-16 08:51:48 \u002b0800 CST",
+    "url" : "https:\/\/guangmujun.github.io\/2020\/qgis-tutorial\/",
+    "wordCount" : "26",
+    "keywords" : [ "qgis", "Yuhang.W"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://guangmujun.github.io">Yuhang.W</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://guangmujun.github.io">Yuhang.W</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">QGIS3中文教程1</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://guangmujun.github.io" rel="author">Yuhang.W</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-07-16 itemprop="datePublished">July 16, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://guangmujun.github.io/categories/qgis%E6%95%99%E7%A8%8B/"> QGIS教程 </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h1 id="1-加载openstreetmap底图">1 加载OpenStreetMap底图</h1>
+<p>双击如图所示的按钮即可</p>
+<p><img src="https://my-imags.oss-cn-shanghai.aliyuncs.com/pic/20200716085652.png" alt=""></p>
+<h1 id="2-裁剪指定区域数据">2 裁剪指定区域数据</h1>
+<p>如：从江苏路网数据中裁剪出扬州市的路网数据</p>
+<ol>
+<li>点击“相交”操作</li>
+</ol>
+<p><img src="https://my-imags.oss-cn-shanghai.aliyuncs.com/pic/20200716090202.png" alt=""></p>
+<ol start="2">
+<li>输出层：江苏路网数据；相交层：扬州市的features；注意这里是将整个江苏的行政区划中选择了扬州市的部分，故需要在“selected features only”前打勾；最后选择输出的位置和文件格式以及文件名；最后点击“run”。</li>
+</ol>
+<p><img src="https://my-imags.oss-cn-shanghai.aliyuncs.com/pic/20200716090419.png" alt=""></p>
+<ol start="3">
+<li>运行一会后，裁剪成功。</li>
+</ol>
+<p><img src="https://my-imags.oss-cn-shanghai.aliyuncs.com/pic/20200716102056.png" alt=""></p>
+<h1 id="3-bd019gcj02wgs相互转换">3 BD019、GCJ02、WGS相互转换</h1>
+<ol>
+<li>点击“Plugins”菜单栏中第一项，在弹出的窗口中搜索“GeoHey”插件，并安装</li>
+</ol>
+<p><img src="https://my-imags.oss-cn-shanghai.aliyuncs.com/pic/20200716102302.png" alt=""></p>
+<ol start="2">
+<li>安装完成后，点击“Toolbox”，可以看到GeoHey已经可用</li>
+</ol>
+<p><img src="https://my-imags.oss-cn-shanghai.aliyuncs.com/pic/20200717091524.png" alt=""></p>
+<ol start="3">
+<li>双击“GCJ02 to WGS”，在弹出的窗口中选择好输入图层，以及确定好保存的位置和格式等</li>
+</ol>
+<p><img src="https://my-imags.oss-cn-shanghai.aliyuncs.com/pic/20200716102534.png" alt=""></p>
+<ol start="4">
+<li>点击“run”，运行完成后，将生成的4个文件全部拖入到QGIS中，效果如下，路网与底图匹配。</li>
+</ol>
+<p><img src="https://my-imags.oss-cn-shanghai.aliyuncs.com/pic/20200716103959.png" alt=""></p>
+<h1 id="4-按条件筛选多个特征">4 按条件筛选多个特征</h1>
+<ol>
+<li>点击漏斗按钮，输入查询属性对应的条件，选择查询方式，然后点击选择特征</li>
+</ol>
+<p><img src="https://my-imags.oss-cn-shanghai.aliyuncs.com/pic/20200717085820.png" alt=""></p>
+<p><img src="https://my-imags.oss-cn-shanghai.aliyuncs.com/pic/20200717090609.png" alt=""></p>
+<ol start="2">
+<li>再次点击漏斗按钮，输入第二个查询条件，此时选择“add to current selection”，这样的话最后选中的就是这两次查询结果的所有特征</li>
+</ol>
+<p><img src="https://my-imags.oss-cn-shanghai.aliyuncs.com/pic/20200717090627.png" alt=""></p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Yuhang.W </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://guangmujun.github.io/2020/qgis-tutorial/>https://guangmujun.github.io/2020/qgis-tutorial/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://guangmujun.github.io/tags/qgis/">
+                    #qgis</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://guangmujun.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://guangmujun.github.io/2020/future-life/" class="prev" rel="prev" title="你想要怎样的未来的生活？"><i class="iconfont icon-left"></i>&nbsp;你想要怎样的未来的生活？</a>
+         
+        
+        <a href="https://guangmujun.github.io/2020/basketball-thinking-1/" class="next" rel="next" title="篮球反思之中位接球处理">篮球反思之中位接球处理&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://guangmujun.github.io">Yuhang.W</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>
