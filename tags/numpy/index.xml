@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>numpy on Yuhang.W</title>
+    <link>https://guangmujun.github.io/tags/numpy/</link>
+    <description>Recent content in numpy on Yuhang.W</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Aug 2020 23:17:24 +0800</lastBuildDate>
+    
+	<atom:link href="https://guangmujun.github.io/tags/numpy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Numpy, Original error was: DLL load failed: 找不到指定的模块。</title>
+      <link>https://guangmujun.github.io/2020/numpy-question/</link>
+      <pubDate>Thu, 06 Aug 2020 23:17:24 +0800</pubDate>
+      
+      <guid>https://guangmujun.github.io/2020/numpy-question/</guid>
+      <description>问题：
+ImportError: cannot import name &amp;lsquo;show_config&amp;rsquo; from &amp;lsquo;numpy&amp;rsquo; (unknown location)
+Original error was: DLL load failed: 找不到指定的模块。
+解决：重装numpy</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,20 @@
     <description>Recent content in 实用技能 on Yuhang.W</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2020 09:12:52 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2020 22:39:26 +0800</lastBuildDate>
     
 	<atom:link href="https://guangmujun.github.io/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>截取视频部分转GIF并压缩</title>
+      <link>https://guangmujun.github.io/2020/video-to-gif/</link>
+      <pubDate>Wed, 22 Jul 2020 22:39:26 +0800</pubDate>
+      
+      <guid>https://guangmujun.github.io/2020/video-to-gif/</guid>
+      <description>帧数降到50左右，图片质量在25M内
+https://docsmall.com/gif-compress</description>
+    </item>
     
     <item>
       <title>基于阿里云OSS和PicGo搭建个人图床</title>

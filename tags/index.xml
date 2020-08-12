@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Yuhang.W</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2020 09:12:52 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2020 10:53:02 +0800</lastBuildDate>
     
 	<atom:link href="https://guangmujun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>random_state</title>
+      <link>https://guangmujun.github.io/tags/random_state/</link>
+      <pubDate>Wed, 12 Aug 2020 10:53:02 +0800</pubDate>
+      
+      <guid>https://guangmujun.github.io/tags/random_state/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QGIS</title>
+      <link>https://guangmujun.github.io/tags/qgis/</link>
+      <pubDate>Wed, 12 Aug 2020 10:10:52 +0800</pubDate>
+      
+      <guid>https://guangmujun.github.io/tags/qgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>numpy</title>
+      <link>https://guangmujun.github.io/tags/numpy/</link>
+      <pubDate>Thu, 06 Aug 2020 23:17:24 +0800</pubDate>
+      
+      <guid>https://guangmujun.github.io/tags/numpy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GIF</title>
+      <link>https://guangmujun.github.io/tags/gif/</link>
+      <pubDate>Wed, 22 Jul 2020 22:39:26 +0800</pubDate>
+      
+      <guid>https://guangmujun.github.io/tags/gif/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>OSS</title>
@@ -35,15 +71,6 @@
       <pubDate>Fri, 17 Jul 2020 08:31:05 +0800</pubDate>
       
       <guid>https://guangmujun.github.io/tags/%E7%AF%AE%E7%90%83/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>qgis</title>
-      <link>https://guangmujun.github.io/tags/qgis/</link>
-      <pubDate>Thu, 16 Jul 2020 08:51:48 +0800</pubDate>
-      
-      <guid>https://guangmujun.github.io/tags/qgis/</guid>
       <description></description>
     </item>
     
