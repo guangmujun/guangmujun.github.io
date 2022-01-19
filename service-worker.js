@@ -27,7 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "c96677783ec9bcec59492a431dc7fcde"
+    "revision": "4a1d351f2ca475b6799e38b182a6c649"
+  },
+  {
+    "url": "adb-phone.html",
+    "revision": "f2f4f950531452dfab1220459308884c"
   },
   {
     "url": "assets/css/0.styles.4522ba09.css",
@@ -38,8 +42,8 @@ self.__precacheManifest = [
     "revision": "2cfdbb338a1d44d700b493d7ecbe65d3"
   },
   {
-    "url": "assets/js/1.2cf35c0d.js",
-    "revision": "01825788560694cb2b137f194badea74"
+    "url": "assets/js/1.9eb3e458.js",
+    "revision": "428cb7969ee9e4f4e4d50ea7aa3b7101"
   },
   {
     "url": "assets/js/10.155aa0a4.js",
@@ -58,8 +62,12 @@ self.__precacheManifest = [
     "revision": "ed6402ee500df51753122f1071ed74a2"
   },
   {
-    "url": "assets/js/14.ff84e1d9.js",
-    "revision": "d7a5cc94edad799d4c7ebe5e5b4afe88"
+    "url": "assets/js/14.368bf069.js",
+    "revision": "38b66fddb5a425b2a0b85fd51ce705ab"
+  },
+  {
+    "url": "assets/js/15.e386ea22.js",
+    "revision": "4043a7d6fc3ab32240b75656631046e9"
   },
   {
     "url": "assets/js/3.bc77920b.js",
@@ -82,56 +90,60 @@ self.__precacheManifest = [
     "revision": "53db31416e830e30dcc766c9e2ad0778"
   },
   {
-    "url": "assets/js/8.9c386a5f.js",
-    "revision": "197f734b1ac470f24e112e2b622c2125"
+    "url": "assets/js/8.24763d6f.js",
+    "revision": "05769d90287b33a1a3292743c2622742"
   },
   {
-    "url": "assets/js/9.4f81b671.js",
-    "revision": "c20f9294ea2fad96438f26ce1eb6821f"
+    "url": "assets/js/9.5f2bb706.js",
+    "revision": "274b7f1562991d36ffa56b7a67003d92"
   },
   {
-    "url": "assets/js/app.492679bd.js",
-    "revision": "0eaefb08455c4314352cc44bcb2f93fe"
+    "url": "assets/js/app.0648becf.js",
+    "revision": "58a0c4a478d8d2f9fc825aae93e9751f"
   },
   {
     "url": "auto-deploy-blog-by-github-actions.html",
-    "revision": "26c26a6cc88929135fcd60b125ae028c"
+    "revision": "f8ca076a5ded59f816533c0905ce21e8"
   },
   {
     "url": "categories/index.html",
-    "revision": "55316ac81476533c5e22ef83eb01db13"
+    "revision": "8933d376596f3faee787fdda18831663"
   },
   {
     "url": "categories/工具/index.html",
-    "revision": "2ae9dd1025a8cdb1d84dc8976cc2dc05"
+    "revision": "9f55bfd337d83a986b65aaac20387e4a"
   },
   {
     "url": "categories/测试/index.html",
-    "revision": "9523e4a64a16aab474fd3890e8bd3100"
+    "revision": "3a8af261f0622d344dc55a7fd2722f3d"
   },
   {
     "url": "index.html",
-    "revision": "7a6e82900c2b3860792dbf38dd61bb9d"
+    "revision": "3cf015b67d9c662b249feb762a9aa212"
+  },
+  {
+    "url": "tag/ADB/index.html",
+    "revision": "3fcd8f30d0a9152f993e4e4f72f2d976"
   },
   {
     "url": "tag/GitHub Actions/index.html",
-    "revision": "503f169daf44a1b3476c5c093a06ea30"
+    "revision": "1c9ffa8142a1d7469f90d006fd43b01e"
   },
   {
     "url": "tag/index.html",
-    "revision": "49baec3b3a73d0525eb10a0f909ce776"
+    "revision": "7d683c2f7fb24efe82848bd71941d25b"
   },
   {
     "url": "tag/Test/index.html",
-    "revision": "b10652b20570c2ad943f9eab70d350f3"
+    "revision": "eb4858acdba6c83b068a3dfae37f01ec"
   },
   {
     "url": "test_my_site.html",
-    "revision": "5136be359104e0768bb01a65c4633061"
+    "revision": "217eb4d8620ae441f32bd1cc53cd9686"
   },
   {
     "url": "timeline/index.html",
-    "revision": "3b6e10b95a546427398847082c36c80c"
+    "revision": "9a6044f9c77adff146c15f1a36aec0c5"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
