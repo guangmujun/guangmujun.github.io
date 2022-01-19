@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "5334dfc31169b7a094f0ab0ca6f4b63a"
+    "revision": "de9ad09e6bc57d52bb4ed9b900dcbb23"
   },
   {
     "url": "assets/css/0.styles.4522ba09.css",
@@ -42,7 +42,7 @@ self.__precacheManifest = [
     "revision": "e46f9dc2d0bc9e5f62ab688e1675b616"
   },
   {
-    "url": "assets/js/1.7c1ec8be.js",
+    "url": "assets/js/1.9eb3e458.js",
     "revision": "428cb7969ee9e4f4e4d50ea7aa3b7101"
   },
   {
@@ -50,20 +50,20 @@ self.__precacheManifest = [
     "revision": "55567e157924abf14bed3f9bf2db5461"
   },
   {
-    "url": "assets/js/11.58fe7857.js",
-    "revision": "d54ea3ccf9c028631731064e12790ad7"
+    "url": "assets/js/11.f5c3d59a.js",
+    "revision": "3d0e882b841b9d53af9040c9939dbc55"
   },
   {
-    "url": "assets/js/12.9923bf29.js",
-    "revision": "249537e9d4086f3fb1559af82c37b1b4"
+    "url": "assets/js/12.7716d1a6.js",
+    "revision": "d23315c269efa1a2b9afce77306f148d"
   },
   {
-    "url": "assets/js/13.8b9c0517.js",
-    "revision": "59b9bedd305136e171b10b2d95b50eae"
+    "url": "assets/js/13.b25ccd62.js",
+    "revision": "3c4dda22cc66e0dfa17979b8fcf6eab6"
   },
   {
-    "url": "assets/js/14.b1803106.js",
-    "revision": "6916ff0cd178c71bc0ade1bd2c03a533"
+    "url": "assets/js/14.03c13a34.js",
+    "revision": "96987f99021ea0b6448114b1fb535442"
   },
   {
     "url": "assets/js/15.e72d06b8.js",
@@ -74,15 +74,15 @@ self.__precacheManifest = [
     "revision": "d1dc66dd30e93a707a88a5c4bf89a5d1"
   },
   {
-    "url": "assets/js/3.55a967fc.js",
+    "url": "assets/js/3.9ac81061.js",
     "revision": "f4db067d4b1ff41583a5d79a669b8ea1"
   },
   {
-    "url": "assets/js/4.bec76c12.js",
+    "url": "assets/js/4.9e97b71a.js",
     "revision": "6b535fdb7a43793d2f2b397a65d07e73"
   },
   {
-    "url": "assets/js/5.871a8c1f.js",
+    "url": "assets/js/5.15535138.js",
     "revision": "2db0569d2acbb21cfb8463eef05d92ba"
   },
   {
@@ -102,64 +102,64 @@ self.__precacheManifest = [
     "revision": "1ad43d3efa493911d3158347937dac76"
   },
   {
-    "url": "assets/js/app.bfa72bbc.js",
-    "revision": "eb4bd813443f7a7e4a03fbb6bd249e93"
+    "url": "assets/js/app.2913e12d.js",
+    "revision": "e89b5dd10f98578a6d55c24eac0a14cb"
   },
   {
     "url": "auto-deploy-blog-by-github-actions.html",
-    "revision": "eb23b931386074899a8995f598ee13ab"
-  },
-  {
-    "url": "categories/工具/index.html",
-    "revision": "a8481bd4c2e4d5a9844c034705b66264"
-  },
-  {
-    "url": "categories/随笔/index.html",
-    "revision": "e913c0f342a5d6829c7d48873618b809"
+    "revision": "6ba1ce53244daeebbca6a97b47d43f9f"
   },
   {
     "url": "categories/index.html",
-    "revision": "56f7f5b415e6fb663210f5bed89e5979"
+    "revision": "e0e0b45a28832bf08c0acafb199bf0d1"
+  },
+  {
+    "url": "categories/工具/index.html",
+    "revision": "12b48f8b2c6137b4fb92edad88c85dbd"
+  },
+  {
+    "url": "categories/随笔/index.html",
+    "revision": "77c1f7ed0b0c1206585efb6a7f6e244b"
   },
   {
     "url": "how-do-i-learn-python.html",
-    "revision": "ad4c76d2c3f3f9e50dc607ea01b1b715"
+    "revision": "11093fd969018a7f2d84bf923c522dbc"
   },
   {
     "url": "index.html",
-    "revision": "653413b2f3a8b3edd8e33a5ea6097b46"
-  },
-  {
-    "url": "tag/博客/index.html",
-    "revision": "c5fd703508057b2fc2d40e23e872d8a3"
-  },
-  {
-    "url": "tag/随笔/index.html",
-    "revision": "c49819736185f46ba7b6933fdc0fa268"
+    "revision": "1a3885cb3127175b9be69120dc63e06d"
   },
   {
     "url": "tag/GitHub Actions/index.html",
-    "revision": "5fa3c6ab33d1d9a0fd1d077a97c726d2"
+    "revision": "a3482e27da67b7b4bdfa6ac44bf439f8"
   },
   {
     "url": "tag/index.html",
-    "revision": "e9b323ecb6a01d0f5268425ec0071a39"
+    "revision": "53014384fa03bf36a16cb54f2e3fa215"
   },
   {
     "url": "tag/Web Scraper/index.html",
-    "revision": "66bd6c119bc5342307156689f2364ffa"
+    "revision": "507312134383d391b649a5acc0701e12"
+  },
+  {
+    "url": "tag/博客/index.html",
+    "revision": "f5f6d7b3defc62d04042a7efe84836d5"
+  },
+  {
+    "url": "tag/随笔/index.html",
+    "revision": "f1f96ab4f9b6ad64708f027a01f96e51"
   },
   {
     "url": "timeline/index.html",
-    "revision": "c1e9e781f2d7af651a5b672bd1a2cd6f"
+    "revision": "8653f7a81fae4437729d19069a54f556"
   },
   {
     "url": "vuepress-github-pages.html",
-    "revision": "c457c68f57786337ef1704cb3bac90b9"
+    "revision": "8fec671c32ab2b17bbfcd8abed1a04ec"
   },
   {
     "url": "web-scraper.html",
-    "revision": "2bfa3e073dc988add9c00d9e8ed226fe"
+    "revision": "a6140dc8967780906058427410c3d8b9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
