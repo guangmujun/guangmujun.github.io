@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "16a836a853a939fc9e147e4acb28e761"
+    "revision": "dd715d6cc1cbc02e220da0461c2ded0e"
   },
   {
     "url": "adb-phone.html",
-    "revision": "b91b5848f588aaf3e2e29a129e691908"
+    "revision": "eb5abd9d094d6a63b093edd5fd5186c3"
   },
   {
     "url": "assets/css/0.styles.4522ba09.css",
@@ -42,8 +42,8 @@ self.__precacheManifest = [
     "revision": "2cfdbb338a1d44d700b493d7ecbe65d3"
   },
   {
-    "url": "assets/js/1.9eb3e458.js",
-    "revision": "428cb7969ee9e4f4e4d50ea7aa3b7101"
+    "url": "assets/js/1.39ca602c.js",
+    "revision": "8190571741b9b6943a678cac13736b43"
   },
   {
     "url": "assets/js/10.155aa0a4.js",
@@ -54,20 +54,48 @@ self.__precacheManifest = [
     "revision": "62c31a748c9ea7297d1d8296755c6ab8"
   },
   {
-    "url": "assets/js/12.f9660cd8.js",
-    "revision": "33d66d4006d8c5be90445d9bd55376e2"
+    "url": "assets/js/12.51b782a4.js",
+    "revision": "f5317b42bbe5b751b85b95200fba06bc"
   },
   {
-    "url": "assets/js/13.a0080b5e.js",
-    "revision": "ed6402ee500df51753122f1071ed74a2"
+    "url": "assets/js/13.b89c746e.js",
+    "revision": "deee02720c73d928629e697d14dc6913"
   },
   {
-    "url": "assets/js/14.368bf069.js",
-    "revision": "38b66fddb5a425b2a0b85fd51ce705ab"
+    "url": "assets/js/14.35f5a287.js",
+    "revision": "d072e8fbf5f09cdebc4c2805cd494de1"
   },
   {
-    "url": "assets/js/15.e386ea22.js",
-    "revision": "4043a7d6fc3ab32240b75656631046e9"
+    "url": "assets/js/15.3e546926.js",
+    "revision": "d0b9d8625515c8e97bb1c2801e4db142"
+  },
+  {
+    "url": "assets/js/16.7f51b45c.js",
+    "revision": "0686f5c797ed7073433c0a6fae2f7879"
+  },
+  {
+    "url": "assets/js/17.3181e329.js",
+    "revision": "58fc59e337b913436fbb978ae717c401"
+  },
+  {
+    "url": "assets/js/18.e844dea1.js",
+    "revision": "99c37bd5983a0e4ec670c539e12464a7"
+  },
+  {
+    "url": "assets/js/19.43e0b257.js",
+    "revision": "8f01497d5f43fe749e681edf39829261"
+  },
+  {
+    "url": "assets/js/20.abea19ad.js",
+    "revision": "b292a7765d788923819ba72543d35d62"
+  },
+  {
+    "url": "assets/js/21.2b722b3b.js",
+    "revision": "68a01f734dfae24abda669796666e35b"
+  },
+  {
+    "url": "assets/js/22.b4bbfb8b.js",
+    "revision": "70219fc876521e2e23b1a0c5238a7624"
   },
   {
     "url": "assets/js/3.bc77920b.js",
@@ -90,60 +118,168 @@ self.__precacheManifest = [
     "revision": "53db31416e830e30dcc766c9e2ad0778"
   },
   {
-    "url": "assets/js/8.24763d6f.js",
-    "revision": "05769d90287b33a1a3292743c2622742"
+    "url": "assets/js/8.cf923e7d.js",
+    "revision": "bd6494ed5b4ef2bd4f9295b543f4ec4d"
   },
   {
-    "url": "assets/js/9.5f2bb706.js",
-    "revision": "274b7f1562991d36ffa56b7a67003d92"
+    "url": "assets/js/9.29080f6c.js",
+    "revision": "400747508d9db9fc3e67d85a26123e86"
   },
   {
-    "url": "assets/js/app.1c2cf578.js",
-    "revision": "76916290364230e3904f6d6c85599342"
+    "url": "assets/js/app.dbadedba.js",
+    "revision": "8de876d3badd1019247fdf85ff2bb991"
   },
   {
-    "url": "auto-deploy-blog-by-github-actions.html",
-    "revision": "c0b2acf8fd2a1fadb122c4a37ff42351"
+    "url": "basketball-middle-operate-ball.html",
+    "revision": "d48ee73402c79b14fd271b8cd2c5fdb3"
+  },
+  {
+    "url": "categories/GIS/index.html",
+    "revision": "9ea96ffcaa895516e9cb9bfabf503759"
   },
   {
     "url": "categories/index.html",
-    "revision": "ed9a9dbfe9b6f9cc8a1a4b62e7e723e6"
+    "revision": "2cef4719731089e42aa91a89c6a20296"
+  },
+  {
+    "url": "categories/Python/index.html",
+    "revision": "6d6bf836d69453da05b332a4fa8a9519"
   },
   {
     "url": "categories/工具/index.html",
-    "revision": "2a29b3850a2e38567ab1f6ad452ec7e9"
+    "revision": "a25c40a1729f5cc0753048811e287faf"
   },
   {
-    "url": "categories/测试/index.html",
-    "revision": "3e793c2647da84af06baadfa43490840"
+    "url": "categories/数据挖掘/index.html",
+    "revision": "dbf3db4b23ef068f7485d32d87d48578"
+  },
+  {
+    "url": "categories/日常生活/index.html",
+    "revision": "1e8de3b24b0b583042b3fdac8392ddf9"
+  },
+  {
+    "url": "daily-thinking-future-life.html",
+    "revision": "06d8ea79620a44415be7997fb4323d5a"
+  },
+  {
+    "url": "data-mining-random-state.html",
+    "revision": "d988e7e7256057b4d2db9140899282e8"
+  },
+  {
+    "url": "get-part-video-to-gif.html",
+    "revision": "54cb253dee577a21f5fecf1b3d1bf3b7"
   },
   {
     "url": "index.html",
-    "revision": "ead3e140ca64ee733bc3550180ecd6af"
+    "revision": "bcbdf5a7a17934bf37727cf8d02acada"
+  },
+  {
+    "url": "make-blog-by-hugo-and-github.html",
+    "revision": "3eb52b2ddb7ec987637aecbbe0436941"
+  },
+  {
+    "url": "picture-bed-aliyun-oss-picgo.html",
+    "revision": "7930420c01116a9e09a043d91ee1f9df"
+  },
+  {
+    "url": "python-problem-numpy-show-config.html",
+    "revision": "a06daf85f8854324bf80d7a0261245bd"
+  },
+  {
+    "url": "qgis-tutorial-base-one.html",
+    "revision": "b48ca3b91d7b42a4448498ca4c306bde"
+  },
+  {
+    "url": "qgis-tutorial-base-two.html",
+    "revision": "b822c674aec826ae84c05d614f979dc9"
   },
   {
     "url": "tag/ADB/index.html",
-    "revision": "8a7a6404260efadaad3c48f5795bc31d"
+    "revision": "905cff1629c3ce7156eb413915f06286"
   },
   {
-    "url": "tag/GitHub Actions/index.html",
-    "revision": "8365ac99a4ffb1024f2dc924c7a2430c"
+    "url": "tag/GIF/index.html",
+    "revision": "209362f4a6d586ddccd6987689021cf7"
+  },
+  {
+    "url": "tag/GIS/index.html",
+    "revision": "b99fc8e60e44b8441ca6b18ce33cf6cb"
+  },
+  {
+    "url": "tag/GitHub/index.html",
+    "revision": "e34526384a79c95f70ed6ffe2191a0ba"
+  },
+  {
+    "url": "tag/Hugo/index.html",
+    "revision": "e1f3e8e384c039997adcc48108574c1e"
   },
   {
     "url": "tag/index.html",
-    "revision": "ffca49edfa5ad327cb1060084f511db6"
+    "revision": "4996b9bc0586a7439c6df0c1500c6e0b"
   },
   {
-    "url": "tag/Test/index.html",
-    "revision": "331f168181afb8d25a837d8fd492d94a"
+    "url": "tag/Numpy/index.html",
+    "revision": "3dce89a60f2fa31dd0bec2ec3c7c0667"
   },
   {
-    "url": "test_my_site.html",
-    "revision": "1c777da7ffe6071595b6fb1e82e99b14"
+    "url": "tag/PicGo/index.html",
+    "revision": "6972b4e565bafd0aa6c050ce1e7ac2a1"
+  },
+  {
+    "url": "tag/Python/index.html",
+    "revision": "0508894a74de7a7f169a6c0569b2567d"
+  },
+  {
+    "url": "tag/QGIS/index.html",
+    "revision": "2918e2a765f049161ad5582a13ef5177"
+  },
+  {
+    "url": "tag/博客搭建/index.html",
+    "revision": "c0e7172f2beb499b84ad17f5916d2daa"
+  },
+  {
+    "url": "tag/图床/index.html",
+    "revision": "360c897bf3dd0b745eefab05cf0be56e"
+  },
+  {
+    "url": "tag/工具/index.html",
+    "revision": "462a403f7991f1bd51339d475e8babba"
+  },
+  {
+    "url": "tag/思考/index.html",
+    "revision": "94a4f6142792a1d865d2f5e0d8d5ba78"
+  },
+  {
+    "url": "tag/教程/index.html",
+    "revision": "cd0553e5a9bcf2d35411e7ace1be8892"
+  },
+  {
+    "url": "tag/数据挖掘/index.html",
+    "revision": "09ac67f74912ad604daab806cd745b09"
+  },
+  {
+    "url": "tag/格式转换/index.html",
+    "revision": "62f64901aeffc9624cd9cee52789f727"
+  },
+  {
+    "url": "tag/生活/index.html",
+    "revision": "0e616e782ed2864d625c80c0e7dac1b3"
+  },
+  {
+    "url": "tag/篮球/index.html",
+    "revision": "0ffe0d0e5a6e9bc6a1e73a0d9779bdff"
+  },
+  {
+    "url": "tag/问题/index.html",
+    "revision": "ea05b584ea79a31c723af935cf50d008"
+  },
+  {
+    "url": "tag/阿里云/index.html",
+    "revision": "c8910b3a00acba53af0e4a842261f8f5"
   },
   {
     "url": "timeline/index.html",
-    "revision": "125641020568bbcd46040b41855239b7"
+    "revision": "e2f477ebaa91e294882fd4785d5ca8fd"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
